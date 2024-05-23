@@ -1,0 +1,74 @@
+.phone{
+    margin: 0 auto;
+    width: 400px;
+    height: 600px;
+    background-color: aqua;
+    border: 2px solid blueviolet;
+    border-radius: 25px;
+}
+
+.fa-phone{
+    position: relative;
+    top: 90%;
+    left: 15px;
+    padding: 15px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.window{
+    display: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 0 auto;
+    width: 400px;
+    height: 600px;
+    background-image: url(https://images.pixexid.com/a-mobile-wallpaper-of-raindrops-refracting-light-on-a-window-cwsw2ngq.jpeg?h=706&q=70);
+    background-size: 100% 100%;
+    border-radius: 25px;
+}
+
+input[type='search']{
+    outline: none;
+    font-size: 20px;
+    color: blue;
+    width: 83%;
+    height: 35px;
+    border-radius: 20px;
+    opacity: 0.7;
+    padding-left: 10px;
+}
+
+input[type='button']{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: chartreuse;
+}
+
+::placeholder{
+    color: blue;
+    padding-left: 10px;
+}
+
+.fa-user-plus{
+    padding: 10px;
+    color: blue;
+    background-color: #fff;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+p{
+    width: 90%;
+    background-color: #fff;
+    opacity: 0.6;
+    height: 20px;
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+span{
+}
