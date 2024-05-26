@@ -169,7 +169,7 @@ function removeContact(span){
 function editContact(span){
     let p = span.parentNode;
     let currentText = p.childNodes[0].nodeValue;
-    let newText = prompt("Yangi kontaktni kiriting:", currentText);
+    let newText = prompt("Yangilikni kiriting:", currentText);
     if (newText !== null && newText!== "") {
         p.childNodes[0].nodeValue = newText;
         updateLocalStorage();

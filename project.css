@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
 .phone{
     margin: 0 auto;
@@ -83,6 +83,7 @@ p{
     opacity: 0.6;
     height: 20px;
     color: blue;
+    margin-top: 15px;
     display: flex;
     justify-content: space-between;
     padding: 5px;
