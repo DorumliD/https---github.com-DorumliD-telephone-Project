@@ -148,7 +148,7 @@
 // loadContacts(); // Загружаем контакты из localStorage при загрузке страницы
 
 
-let myIcon = document.querySelector('.fa-phone');  // telefonni ikonkasi
+let myIcon = document.querySelector('.fa-scale-balanced');  // telefonni ikonkasi
 let phoneDiv = document.querySelector('.phone');  // telefonni katta divi
 let myTxtInput = document.querySelector('input[type="search"]');  // input type='search';
 let phoneWindow = document.getElementsByClassName('window')[0];  // telefon ichki displayi
